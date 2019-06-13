@@ -51,7 +51,7 @@ gulp.task("html", function () {
 	}
 
 	// 写入js文件到dist/html/
-	page.pipe(gulp.dest(folder.dist))
+	page.pipe(gulp.dest(folder.dist + 'html/'))
 
 })
 gulp.task("css", function () {
